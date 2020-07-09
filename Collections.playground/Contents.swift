@@ -19,6 +19,16 @@ array.count // количество элементов в массиве
 print(array)
 
 // Dictionary (Словарь)
+var nameOfNumbers = [Int: String]() // пустой словарь с ключом Int и значением String
+var producerСountries = ["Japan": "Mazda",
+                          "America": "Ford",
+                          "German": "Volkswagen"] // литеральный синтаксис создания словаря
+producerСountries["Japan"] // доступ к элементу по ключу
+producerСountries["Japan"] = "Lexus" // изменение элемента по ключу
+producerСountries.isEmpty // пустой ли словарь
+producerСountries.count // количество элементов в словаре
+producerСountries["America"] = nil // удаление элемента
+print(producerСountries)
 
 // Set (Множество / Набор)
 
