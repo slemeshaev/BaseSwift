@@ -14,7 +14,6 @@ let i32max: Int32 = Int32.max
 let i64min: Int64 = Int64.min
 let i64max: Int64 = Int64.max
 
-
 // лучший вариант для использования
 let imin: Int = Int.min
 let imax: Int = Int.max
