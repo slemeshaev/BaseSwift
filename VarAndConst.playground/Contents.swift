@@ -1,3 +1,5 @@
-import UIKit
 
-var str = "Hello, playground"
+// number - имя переменной
+// 26 - значение переменной
+
+var number = 26
