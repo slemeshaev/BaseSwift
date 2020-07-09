@@ -51,3 +51,10 @@ oddDigits.subtracting(primeNumbers) // вычитание множеств
 oddDigits.symmetricDifference(primeNumbers) // разность множеств
 
 // Tuple (Кортеж)
+var person = ("Stanislav", 27, true)
+print("My name is \(person.0).")
+print("I'm \(person.1) years old.")
+print("State: \(person.2)")
+
+person.1 = 28
+print(person)
