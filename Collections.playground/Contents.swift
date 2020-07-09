@@ -31,5 +31,23 @@ producerСountries["America"] = nil // удаление элемента
 print(producerСountries)
 
 // Set (Множество / Набор)
+var symbols = Set<String>() // пустое множество типа String
+var someCars: Set<String> = ["Mazda", "Hyundai", "Ford", "Mercedes"] // литеральный синтаксис создания словаря
+someCars.contains("Mazda") // содержит словарь элемент "Mazda"
+someCars.insert("BMW") // вставляем новый элемент
+someCars.remove("Ford") // удаляем элемент
+someCars.isEmpty // пустое ли множество
+someCars.count // количество элементов множества
+print(someCars)
+
+// Операции над множествами
+let oddDigits: Set = [11, 13, 15, 17, 19]
+let evenDigits: Set = [2, 10, 12, 14, 16, 18]
+let primeNumbers: Set = [2, 11, 13, 17, 19]
+
+oddDigits.union(evenDigits) // объединение множеств
+oddDigits.intersection(evenDigits) // пересечение множеств
+oddDigits.subtracting(primeNumbers) // вычитание множеств
+oddDigits.symmetricDifference(primeNumbers) // разность множеств
 
 // Tuple (Кортеж)
