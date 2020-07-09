@@ -4,3 +4,6 @@
 
 var number = 26
 number = 18
+
+// let имяКонстанты = 3.14
+let Pi = 3.14
