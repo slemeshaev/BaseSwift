@@ -3,3 +3,10 @@
 let x: Double = 1.5
 let y: Double = 7 * x * x - 3 * x + 6
 print("y = \(y)")
+
+// Пример №2: Дана сторона квадрата. Найти его периметр.
+
+let sideA: Double = 5
+let p: Double = 4 * 5
+print("Периметр квадрата \(p)")
+
